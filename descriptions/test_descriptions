@@ -1,0 +1,167 @@
+Test Case Description: User Can Log Out
+
+    Objective:
+        Ensure that a user who is logged into the application can successfully log out.
+
+    Preconditions:
+
+        The user must have an existing account.
+
+        The user must be logged in before performing the logout test.
+
+        The web application (https://www.demoblaze.com) should be accessible.
+
+        Test Steps:
+
+        Open a web browser (Chrome).
+        
+        Navigate to https://www.demoblaze.com.
+
+        Read saved credentials from user_credentials.txt.
+
+        Extract the username from the credentials file.
+
+        Verify that the page contains "Welcome [username]", confirming that the user is logged in.
+
+        Click on the "Log out" button.
+
+        Verify that the "Log in" button becomes visible, confirming a successful logout.
+
+        Close the browser.
+
+    Expected Result:
+
+        The "Welcome [username]" message should disappear after logging out.
+
+        The "Log in" button should be visible, indicating the user has been successfully logged out.
+
+    Postconditions:
+
+        The browser should be closed after test execution.
+
+        The user should be completely logged out of the application.
+
+    Test Data:
+
+        Username and password stored in user_credentials.txt.
+
+    Automation Notes:
+
+        Use SeleniumLibrary to interact with the browser.
+
+        Use the String library to handle credential extraction.
+
+        Implement error handling in case elements are not found.
+
+        Ensure proper wait times to handle page load delays.
+
+Test Case Description: User Can Log In
+
+    Objective:
+        Ensure that a user can successfully log into the application using valid credentials.
+
+    Preconditions:
+
+        The user must have an existing account.
+
+        The web application (https://www.demoblaze.com) should be accessible.
+
+        Valid credentials must be stored in user_credentials.txt.
+
+    Test Steps:
+
+        Open a web browser (Chrome).
+
+        Navigate to https://www.demoblaze.com.
+
+        Read saved credentials from user_credentials.txt.
+
+        Extract the username and password from the credentials file.
+
+        Click on the "Log in" button.
+
+        Enter the extracted username and password.
+
+        Click the "Log in" button to submit credentials.
+
+        Verify that the page displays "Welcome [username]" confirming successful login.
+
+        Close the browser.
+
+    Expected Result:
+
+        The login should be successful, and the user should see "Welcome [username]" on the page.
+
+    Postconditions:
+
+        The browser should be closed after test execution.
+
+        The user should remain logged into the application unless logged out manually.
+
+    Test Data:
+
+        Username and password stored in user_credentials.txt.
+
+    Automation Notes:
+
+        Implement error handling for incorrect credentials.
+
+        Ensure the page has fully loaded before interacting with elements.
+
+        Use proper waits to avoid timing issues.
+
+Test Case Description: User Can Sign Up
+
+    Objective:
+        Ensure that a new user can successfully sign up for an account.
+
+    Preconditions:
+
+        The web application (https://www.demoblaze.com) should be accessible.
+
+        No existing account should use the generated username.
+
+    Test Steps:
+
+        Open a web browser (Chrome).
+
+        Navigate to https://www.demoblaze.com.
+
+        Generate a unique username.
+
+        Set a password for the new account.
+
+        Click on the "Sign up" button.
+
+        Enter the generated username and password.
+
+        Click the "Sign up" button to submit credentials.
+
+        Handle the confirmation alert.
+
+        Save the new username and password to user_credentials.txt.
+
+        Close the browser.
+
+    Expected Result:
+
+        A success alert should confirm that the account was created successfully.
+
+    Postconditions:
+
+        The new credentials should be saved for future logins.
+
+        The browser should be closed after test execution.
+
+    Test Data:
+
+        Generated username and password.
+
+    Automation Notes:
+
+        Ensure unique usernames to avoid conflicts.
+
+        Properly handle alerts after sign-up.
+
+        Save credentials securely for later use.
+
