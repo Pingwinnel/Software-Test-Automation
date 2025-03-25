@@ -5,23 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54b6edb2-8e9c-4fe9-b545-242587b5f531" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Software Test Automation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestsCase.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/robot_tests/drivers/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/robot_tests/tests/login.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/robot_tests/tests/logout.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/robot_tests/tests/signup.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/robot_tests/variables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robot_tests/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/robot_tests/log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robot_tests/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/robot_tests/output.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robot_tests/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/robot_tests/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robot_tests/tests/login.robot" beforeDir="false" afterPath="$PROJECT_DIR$/robot_tests/tests/login.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robot_tests/tests/logout.robot" beforeDir="false" afterPath="$PROJECT_DIR$/robot_tests/tests/logout.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robot_tests/tests/signup.robot" beforeDir="false" afterPath="$PROJECT_DIR$/robot_tests/tests/signup.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,6 +61,8 @@
       <recent name="C:\Users\erasi\PycharmProjects\Software Test Automation\robot_tests\drivers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\erasi\PycharmProjects\Software Test Automation\robot_tests\tests" />
+      <recent name="C:\Users\erasi\PycharmProjects\Software Test Automation\robot_tests\resourses" />
       <recent name="C:\Users\erasi\PycharmProjects\Software Test Automation\robot_tests\drivers" />
       <recent name="C:\Users\erasi\PycharmProjects\Software Test Automation\robot_tests" />
     </key>
@@ -108,6 +113,7 @@
       <option name="presentableId" value="Default" />
       <updated>1742415062638</updated>
       <workItem from="1742415065467" duration="1468000" />
+      <workItem from="1742916362635" duration="6515000" />
     </task>
     <servers />
   </component>
